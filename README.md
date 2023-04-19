@@ -125,3 +125,6 @@ This project has several important directories:
 If your project has no dependencies and has not been compiled, you may not see the `lib` or `bin` directories.
 
 
+## How to submit this assignment
+
+Submit on Brightspace a zip file named "A6_complete_NYUnetID" containing your project folder called "A6_project_directory_NYUnetID", where NYUnetID should be replaced with your actual NYU net ID. The project folder should contain your source code and compiled code within the src and bin folders. It should also contain the same test folder as was when you download the assignment 6 zip file.
