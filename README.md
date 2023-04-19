@@ -68,7 +68,7 @@ Word should have the following methods:
 
 #### Hint
 
-Based on the description of this class above, it should be clear to you how `Word` implements the `SequentiallyOrdered` interface, which requires the `getFirst()` and `getLast()` methods to return an `OrderedThing`. If not, here is a hint: a child class can be considered an instance of its parent class... this is polymorphism. So a `Character` object, since it extends `OrderedThing`, can also be considered an instance of the `OrderedThing` class.
+The `Word` class, which implements the `SequentiallyOrdered` interface, requires the `getFirst()` and `getLast()` methods to return an `OrderedThing`. Note that a child class can be considered an instance of its parent class; this is polymorphism. So a `Character` object, since it extends `OrderedThing`, can also be considered an instance of the `OrderedThing` class.
 
 #### Constructors
 
@@ -97,7 +97,7 @@ Sentence should have the following methods:
 
 #### Hint
 
-Based on the description of this class above, it should be clear to you how `Sentence` implements the `SequentiallyOrdered` interface, which requires the `getFirst()` and `getLast()` methods to return an `OrderedThing`. If not, here is a hint: a child class can be considered an instance of its parent class... this is polymorphism. So a `Word` object, if it extends `OrderedThing`, can also be considered an instance of the `OrderedThing` class.
+The `Sentence` class, which implements the `SequentiallyOrdered` interface, requires the `getFirst()` and `getLast()` methods to return an `OrderedThing`. Note that a child class can be considered an instance of its parent class; this is polymorphism. So a `Word` object, if it extends `OrderedThing`, can also be considered an instance of the `OrderedThing` class.
 
 #### Constructors
 
@@ -124,23 +124,4 @@ This project has several important directories:
 
 If your project has no dependencies and has not been compiled, you may not see the `lib` or `bin` directories.
 
-## How to submit this assignment
 
-Once you have completed the changes to th assignment, you are ready to submit it. Do this from within Visual Studio Code.
-
-1. Click on the `Source Control` icon in the left activity bar in Visual Studio Code.
-1. In the Source Control side bar, you will see a field named `Message` - type in a unique message about what you have done, e.g. "_Finished assignment!_" or whatever you want to write as a short note to yourself.
-1. Hover over the words `Source Control`. You will see a `...` icon appear - click it to see a menu. In that menu, click `Commit`->`Commit`. This logs the changes you've made to the Git project - remember Git is used to keep track of changes.
-1. Go to the same menu and click `Push` to submit your assignment - this uploads your updated files to the copy of your respository on GitHub.
-
-![Push changes to GitHub](./images/how_to_push_changes_to_github_from_vscode.png)
-
-That's it... you're done.
-
-## Double-check your submission
-
-Prove to yourself that you have correctly submitted by viewing your repository on the GitHub website - you should see your completed README.md file there.
-
-## Resubmit as many times as you want
-
-You can re-submit as many times as you want before the deadline. Just make changes to the files on your own computer and repeat the process outlined above to upload them to GitHub.
